@@ -1,0 +1,11 @@
+import datetime as dt
+t = dt.time(12, 00)
+print(t)
+dt.time(12, 0)
+t4 = dt.datetime.strptime('11:00', '%H:%M').time()
+print(t4)
+dt.time(11, 0)
+print(t > t4)
+print(t < t4)
+dt.time(int('12'), int('01'))
+dt.time(12, 1)
