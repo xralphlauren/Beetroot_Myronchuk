@@ -83,5 +83,5 @@ def task_5():
     window_1.mainloop()
 
 
-task_1()
+task_2()
 
