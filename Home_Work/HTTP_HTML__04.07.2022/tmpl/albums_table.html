@@ -1,0 +1,20 @@
+<html>
+<meta charset="utf8">
+<head>
+<title>Spisok alboms</title>
+<link href="../albums.css" rel="stylesheet">
+</head>
+
+<body>
+
+<table>
+<tr><th>Number</th><th>Title</th></tr>
+% for a in albums:
+<tr><td>${loop.index + 1}</td><td>${a}</td></tr>
+% endfor
+</table>
+
+</body>
+
+
+</html>

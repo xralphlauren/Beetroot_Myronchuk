@@ -1,0 +1,26 @@
+<html>
+<meta charset="utf8">
+<head>
+<title>Spisok alboms</title>
+<link href="../albums.css" rel="stylesheet">
+</head>
+
+<body>
+
+<table>
+
+<!-- <tr><th>Number</th><th>Title</th></tr> -->
+
+% for cus in customers:
+<tr>
+% for field in cus:
+<td>${cus[field]}</td>
+% endfor
+</tr>
+% endfor
+</table>
+
+</body>
+
+
+</html>

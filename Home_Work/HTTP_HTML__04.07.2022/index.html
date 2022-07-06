@@ -1,0 +1,26 @@
+<html>
+<meta charset="utf8">
+<head>
+</head>
+
+<body>
+<a href="cgi-bin/test.py">тестовый файл</a>
+
+<a href="cgi-bin/var2.py?vik=slow">vik slow</a>
+
+
+<form action="cgi-bin/var2.py" method="post">
+<input type = "text" id = "vik" name = "vik"><br>
+<input type = "submit" value = "Send" >
+</form>
+
+<div>Please input your id</div>
+<form action="cgi-bin/client.py" method="post">
+<input type = "text" id = "id_form" name = "id_form"><br>
+<input type = "submit" value = "Send ID" >
+</form>
+
+</body>
+
+
+</html>
